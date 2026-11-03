@@ -1,0 +1,880 @@
+{
+ "10 de Mayo Santa Barbara": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12037,
+  "lon": -73.1035,
+  "nombre_osm": "Sendero de Los Caminantes, Los Anaya, Vereda 10 de Mayo - Santa Bárbara, Bucaramanga, Metr"
+ },
+ "12 de Octubre": null,
+ "13 de Junio": null,
+ "20 de Julio": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09547,
+  "lon": -73.11839,
+  "nombre_osm": "20 de Julio, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "23 de Junio": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11794,
+  "lon": -73.13615,
+  "nombre_osm": "23 de Junio, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolita"
+ },
+ "Africa": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09483,
+  "lon": -73.1197,
+  "nombre_osm": "África, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "Alarcon": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12621,
+  "lon": -73.12264,
+  "nombre_osm": "Alarcón, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Albania": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13029,
+  "lon": -73.10586,
+  "nombre_osm": "Albania, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "Alfonso Lopez": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11513,
+  "lon": -73.13207,
+  "nombre_osm": "Alfonso López, Comuna 5 - García Rovira, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Altos del Cacique": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09586,
+  "lon": -73.10263,
+  "nombre_osm": "Unidad Residencial Altos de Tajamar, Comuna 16 - Lagos del Cacique, Perímetro Urbano Bucar"
+ },
+ "Altos del Jardin": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11999,
+  "lon": -73.10521,
+  "nombre_osm": "Altos del Jardín, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramang"
+ },
+ "Altos del Kennedy": null,
+ "Altos del Lago": null,
+ "Altos del Progreso": null,
+ "Alvarez": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12819,
+  "lon": -73.10769,
+  "nombre_osm": "Álvarez, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Antiguo Campestre": null,
+ "Antonia Santos Centro": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12346,
+  "lon": -73.12004,
+  "nombre_osm": "Antonia Santos, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Antonia Santos Sur": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10169,
+  "lon": -73.11084,
+  "nombre_osm": "Antonia Santos Sur, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Me"
+ },
+ "Asopofavi": null,
+ "Asturias": null,
+ "Balconcitos": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10417,
+  "lon": -73.132,
+  "nombre_osm": "Balconcitos, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "Balcones del Kennedy": null,
+ "Betania": {
+  "calidad": "comuna_coincide",
+  "lat": 7.15129,
+  "lon": -73.14226,
+  "nombre_osm": "Betania, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santa"
+ },
+ "Bolarqui": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11044,
+  "lon": -73.1133,
+  "nombre_osm": "Bolarquí, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Metro"
+ },
+ "Bolivar": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11958,
+  "lon": -73.11811,
+  "nombre_osm": "Bolívar, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Bosconia": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.15449,
+  "lon": -73.11269,
+  "nombre_osm": "Bosconia, Vereda Pedregal, Bucaramanga, Metropolitana, Santander, RAP Gran Santander, 6800"
+ },
+ "Bosque Norte": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14364,
+  "lon": -73.13268,
+  "nombre_osm": "Bosque Norte, Comuna 2 - Nororiental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Brisas del Mutis": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09529,
+  "lon": -73.13512,
+  "nombre_osm": "Brisas del Mutis, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Bucaramanga": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.12746,
+  "lon": -73.11913,
+  "nombre_osm": "Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santander, RAP Gran Santander, C"
+ },
+ "Buenavista": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.10083,
+  "lon": -73.06083,
+  "nombre_osm": "Institución Rural Buenavista, Vía Vereda Helechales, Aguablanca, Floridablanca, Metropolit"
+ },
+ "Buenos Aires": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1326,
+  "lon": -73.10159,
+  "nombre_osm": "Buenos Aires, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Cabecera del Llano": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11781,
+  "lon": -73.10855,
+  "nombre_osm": "Cabecera del Llano, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucarama"
+ },
+ "Cafe Madrid": {
+  "calidad": "comuna_coincide",
+  "lat": 7.16402,
+  "lon": -73.14062,
+  "nombre_osm": "Café Madrid, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Campo Hermoso": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1067,
+  "lon": -73.13795,
+  "nombre_osm": "Campo Hermoso, Comuna 5 - García Rovira, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Candado": null,
+ "Candiles": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10805,
+  "lon": -73.12777,
+  "nombre_osm": "Candiles, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Canelos": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09815,
+  "lon": -73.12286,
+  "nombre_osm": "Canelos, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "Centro": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11901,
+  "lon": -73.12456,
+  "nombre_osm": "Centro, Comuna 15 - Centro, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Sant"
+ },
+ "Chapinero": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14026,
+  "lon": -73.1314,
+  "nombre_osm": "Chapinero, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Chorreras de Don Juan": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1118,
+  "lon": -73.12931,
+  "nombre_osm": "Chorreras de Don Juan, Comuna 5 - García Rovira, Perímetro Urbano Bucaramanga, Bucaramanga"
+ },
+ "Ciudad Venecia": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08888,
+  "lon": -73.1235,
+  "nombre_osm": "Ciudad Venecia, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "Claveriano": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1579,
+  "lon": -73.13135,
+  "nombre_osm": "Claveriano, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Sa"
+ },
+ "Colorados": {
+  "calidad": "comuna_coincide",
+  "lat": 7.17877,
+  "lon": -73.13269,
+  "nombre_osm": "Colorados Norte, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Colseguros Norte": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14685,
+  "lon": -73.13307,
+  "nombre_osm": "Colseguros Norte, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolita"
+ },
+ "Comuneros": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13949,
+  "lon": -73.12795,
+  "nombre_osm": "Comuneros, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Conucos": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10618,
+  "lon": -73.1109,
+  "nombre_osm": "Conucos, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Cristal Alto": {
+  "calidad": "comuna_coincide",
+  "lat": 7.07824,
+  "lon": -73.1181,
+  "nombre_osm": "Cristal Alto, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolita"
+ },
+ "Cristal Bajo": {
+  "calidad": "comuna_coincide",
+  "lat": 7.07208,
+  "lon": -73.12102,
+  "nombre_osm": "Cristal Bajo, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolita"
+ },
+ "Dangond": {
+  "calidad": "comuna_coincide",
+  "lat": 7.07979,
+  "lon": -73.12367,
+  "nombre_osm": "El Dangond, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, San"
+ },
+ "Delicias": null,
+ "Delicias Altas": null,
+ "Diamante I": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09292,
+  "lon": -73.10713,
+  "nombre_osm": "Diamante I, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Diamante II": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09138,
+  "lon": -73.11356,
+  "nombre_osm": "Diamante II, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Don Bosco": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11259,
+  "lon": -73.14527,
+  "nombre_osm": "Don Bosco, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "El Diviso": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13699,
+  "lon": -73.10539,
+  "nombre_osm": "El Diviso, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "El Jardin": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1176,
+  "lon": -73.10468,
+  "nombre_osm": "El Jardín, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Metr"
+ },
+ "El Pablon": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.17911,
+  "lon": -73.1428,
+  "nombre_osm": "El Pablón, Bucaramanga, Metropolitana, Santander, RAP Gran Santander, 680001, Colombia"
+ },
+ "El Plan": null,
+ "El Porvenir": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08267,
+  "lon": -73.13037,
+  "nombre_osm": "El Porvenir, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Sa"
+ },
+ "El Prado": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12401,
+  "lon": -73.1104,
+  "nombre_osm": "El Prado, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "El Rocio": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08432,
+  "lon": -73.12083,
+  "nombre_osm": "El Rocío, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santa"
+ },
+ "El Tejar": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10052,
+  "lon": -73.10469,
+  "nombre_osm": "El Tejar, Comuna 16 - Lagos del Cacique, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Esperanza I": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.06885,
+  "lon": -73.07069,
+  "nombre_osm": "Vía Hacienda La Esperanza - Cerro del Santísimo, Alsacia, Floridablanca, Metropolitana, Sa"
+ },
+ "Esperanza II": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.06885,
+  "lon": -73.07069,
+  "nombre_osm": "Vía Hacienda La Esperanza - Cerro del Santísimo, Alsacia, Floridablanca, Metropolitana, Sa"
+ },
+ "Esperanza III": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.07074,
+  "lon": -73.07287,
+  "nombre_osm": "Reserva Natural Finca La Esperanza - CDMB, Alsacia, Floridablanca, Metropolitana, Santande"
+ },
+ "Estoraques": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09193,
+  "lon": -73.14271,
+  "nombre_osm": "Estoraques, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Fontana": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08711,
+  "lon": -73.12022,
+  "nombre_osm": "Fontana, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Gaitan": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13146,
+  "lon": -73.13244,
+  "nombre_osm": "Gaitán, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Galan": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12896,
+  "lon": -73.11161,
+  "nombre_osm": "Galán, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, San"
+ },
+ "Garcia Rovira": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1174,
+  "lon": -73.1296,
+  "nombre_osm": "García Rovira, Comuna 15 - Centro, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Girardot": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12227,
+  "lon": -73.13439,
+  "nombre_osm": "Girardot, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "Gomez Niño": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11016,
+  "lon": -73.1206,
+  "nombre_osm": "Avenida Carrera 17, Aeropuerto, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Buc"
+ },
+ "Granada": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12461,
+  "lon": -73.12936,
+  "nombre_osm": "Granada, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "Granjas de Provenza": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08377,
+  "lon": -73.1151,
+  "nombre_osm": "Granjas de Provenza, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metr"
+ },
+ "Hacienda San Juan": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.0798,
+  "lon": -73.17296,
+  "nombre_osm": "Conjunto Hacienda San Antonio, Km 7, Girón, Metropolitana, Santander, RAP Gran Santander, "
+ },
+ "Jardines de Coaviconsa": null,
+ "Juan XXIII": {
+  "calidad": "comuna_coincide",
+  "lat": 7.0941,
+  "lon": -73.12082,
+  "nombre_osm": "Juan XXIII, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Kennedy": {
+  "calidad": "comuna_coincide",
+  "lat": 7.15212,
+  "lon": -73.13505,
+  "nombre_osm": "Kennedy, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santa"
+ },
+ "La Aurora": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12571,
+  "lon": -73.11526,
+  "nombre_osm": "La Aurora, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "La Ceiba": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10477,
+  "lon": -73.1155,
+  "nombre_osm": "La Ceiba, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "La Concordia": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11253,
+  "lon": -73.11916,
+  "nombre_osm": "La Concordia, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropol"
+ },
+ "La Esmeralda": null,
+ "La Feria": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12067,
+  "lon": -73.14,
+  "nombre_osm": "La Feria, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "La Floresta": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10664,
+  "lon": -73.10572,
+  "nombre_osm": "La Floresta, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Me"
+ },
+ "La Independencia": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14191,
+  "lon": -73.12532,
+  "nombre_osm": "La Independencia, Comuna 2 - Nororiental, Perímetro Urbano Bucaramanga, Bucaramanga, Metro"
+ },
+ "La Joya": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1101,
+  "lon": -73.14072,
+  "nombre_osm": "La Joya, Comuna 5 - García Rovira, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "La Juventud": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14376,
+  "lon": -73.129,
+  "nombre_osm": "La Juventud, Comuna 2 - Nororiental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "La Libertad": {
+  "calidad": "comuna_coincide",
+  "lat": 7.0948,
+  "lon": -73.10711,
+  "nombre_osm": "La Libertad, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "La Pedregosa": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09524,
+  "lon": -73.10909,
+  "nombre_osm": "Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santand"
+ },
+ "La Salle": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10091,
+  "lon": -73.1126,
+  "nombre_osm": "La Salle, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "La Victoria": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09938,
+  "lon": -73.11626,
+  "nombre_osm": "La Victoria, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Lagos del Cacique": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10515,
+  "lon": -73.09497,
+  "nombre_osm": "Universidad de Santander - UDES, Calle 71A, Comuna 16 - Lagos del Cacique, Perímetro Urban"
+ },
+ "Las Hamacas": null,
+ "Limoncito": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13302,
+  "lon": -73.10079,
+  "nombre_osm": "Limoncito I, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolita"
+ },
+ "Los Angeles": null,
+ "Los Cedros": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11846,
+  "lon": -73.10295,
+  "nombre_osm": "Los Cedros, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Met"
+ },
+ "Los Guayacanes": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10364,
+  "lon": -73.10623,
+  "nombre_osm": "Los Guayacanes, Comuna 16 - Lagos del Cacique, Perímetro Urbano Bucaramanga, Bucaramanga, "
+ },
+ "Los Heroes": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09678,
+  "lon": -73.12942,
+  "nombre_osm": "Los Héroes, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Los Pinos": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13513,
+  "lon": -73.10989,
+  "nombre_osm": "Los Pinos, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "Malpaso": {
+  "calidad": "comuna_coincide",
+  "lat": 7.0776,
+  "lon": -73.13804,
+  "nombre_osm": "Transversal de Malpaso, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Manuela Beltran": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08381,
+  "lon": -73.12462,
+  "nombre_osm": "Manuela Beltrán, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "Manzanares": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09516,
+  "lon": -73.13938,
+  "nombre_osm": "Manzanares, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Maria Paz": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14909,
+  "lon": -73.1391,
+  "nombre_osm": "María Paz, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, San"
+ },
+ "Mejoras Publicas": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12163,
+  "lon": -73.11507,
+  "nombre_osm": "Mejoras Públicas, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropo"
+ },
+ "Mercedes": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1081,
+  "lon": -73.11236,
+  "nombre_osm": "Mercedes, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Metro"
+ },
+ "Minuto de Dios": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14819,
+  "lon": -73.13338,
+  "nombre_osm": "Urbanización El Minuto de Dios, Comuna 1 - Norte, Perímetro Urbano Bucaramanga, Bucaramang"
+ },
+ "Miradores del Kennedy": null,
+ "Miraflores": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13172,
+  "lon": -73.10336,
+  "nombre_osm": "Miraflores, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Miramar": null,
+ "Modelo": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13443,
+  "lon": -73.12893,
+  "nombre_osm": "Modelo, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "Monterredondo": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09245,
+  "lon": -73.1341,
+  "nombre_osm": "Monterredondo, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "Morrorico": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13424,
+  "lon": -73.1069,
+  "nombre_osm": "Morrorico, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "Mutis": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1002,
+  "lon": -73.13108,
+  "nombre_osm": "Mutis, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santan"
+ },
+ "Mutualidad": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13631,
+  "lon": -73.12663,
+  "nombre_osm": "Mutualidad, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Napoles": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1191,
+  "lon": -73.14333,
+  "nombre_osm": "Nápoles, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "Nariño": {
+  "calidad": "comuna_coincide",
+  "lat": 7.12583,
+  "lon": -73.13531,
+  "nombre_osm": "Nariño, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Norte Bajo": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14228,
+  "lon": -73.13554,
+  "nombre_osm": "Norte Bajo, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Nueva Granada": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09694,
+  "lon": -73.11353,
+  "nombre_osm": "Parque Nueva Granada Sur, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaraman"
+ },
+ "Nuevo Sotomayor": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11641,
+  "lon": -73.11643,
+  "nombre_osm": "Nuevo Sotomayor, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga"
+ },
+ "Olas Bajas": null,
+ "Olas II": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14402,
+  "lon": -73.13322,
+  "nombre_osm": "Olas II, Comuna 2 - Nororiental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana,"
+ },
+ "Omaga I": null,
+ "Omaga II": null,
+ "Pablo Vi": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09639,
+  "lon": -73.11915,
+  "nombre_osm": "Pablo VI, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Pan de Azucar": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11609,
+  "lon": -73.10197,
+  "nombre_osm": "Pan de Azúcar, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, "
+ },
+ "Pedregal": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14877,
+  "lon": -73.11648,
+  "nombre_osm": "Vereda Pedregal, Bucaramanga, Metropolitana, Santander, RAP Gran Santander, 680001, Colomb"
+ },
+ "Pio XII": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11958,
+  "lon": -73.13543,
+  "nombre_osm": "Pío XII, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "Porto Fino": null,
+ "Prados del Mutis": null,
+ "Provenza": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08658,
+  "lon": -73.11435,
+  "nombre_osm": "Provenza, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "Puerta del Sol": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10416,
+  "lon": -73.11274,
+  "nombre_osm": "Puerta del Sol, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga,"
+ },
+ "Puerto Rico": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14118,
+  "lon": -73.11667,
+  "nombre_osm": "Vía al Barrio Miradores de La UIS, Puerto Rico, Comuna 3 - San Francisco, Comuna 13 - Orie"
+ },
+ "Quebrada La Iglesia I": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08447,
+  "lon": -73.14126,
+  "nombre_osm": "Quebrada La Iglesia, Comuna 17 - Mutis, Perímetro Urbano Bucaramanga, Bucaramanga, Metropo"
+ },
+ "Quebrada la Iglesia": null,
+ "Quebrada la Iglesia II": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09042,
+  "lon": -73.1287,
+  "nombre_osm": "Quebrada La Iglesia II, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga"
+ },
+ "Quinta Brigada": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13262,
+  "lon": -73.11034,
+  "nombre_osm": "Ejército Nacional - Batallón Quinta Brigada, Comuna 13 - Oriental, Perímetro Urbano Bucara"
+ },
+ "Quinta Estrella": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10124,
+  "lon": -73.14302,
+  "nombre_osm": "Quinta Estrella, Comuna 5 - García Rovira, Perímetro Urbano Bucaramanga, Bucaramanga, Metr"
+ },
+ "Quintadania": null,
+ "Real de Minas": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10362,
+  "lon": -73.12435,
+  "nombre_osm": "Comuna 7 - La Ciudadela, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, Santand"
+ },
+ "Regaderos Norte": null,
+ "Retiro Grande Acueducto": null,
+ "Ricaurte": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10672,
+  "lon": -73.11759,
+  "nombre_osm": "Ricaurte, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Rio de Oro I": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10617,
+  "lon": -73.1649,
+  "nombre_osm": "Río de Oro I, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "Rio de Oro II": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09818,
+  "lon": -73.16832,
+  "nombre_osm": "Río de Oro II, Comuna 5 - García Rovira, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Robles": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.06303,
+  "lon": -73.16118,
+  "nombre_osm": "Los Robles, Calle 22, Girón, Metropolitana, Santander, RAP Gran Santander, 687541, Colombi"
+ },
+ "Rosablanca": {
+  "calidad": "comuna_coincide",
+  "lat": 7.0775,
+  "lon": -73.06111,
+  "nombre_osm": "Institución Rural Rosablanca, Vereda Alsacia Malabar, Alsacia, Floridablanca, Metropolitan"
+ },
+ "San Alonso": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13178,
+  "lon": -73.11655,
+  "nombre_osm": "San Alonso, Comuna 13 - Oriental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "San Cristobal": {
+  "calidad": "sin_comuna_osm",
+  "lat": 7.06105,
+  "lon": -73.17108,
+  "nombre_osm": "Colegio Juan Cristóbal Martinez, Carrera 27, Girón, Metropolitana, Santander, RAP Gran San"
+ },
+ "San Expedito": null,
+ "San Francisco": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13152,
+  "lon": -73.12217,
+  "nombre_osm": "San Francisco, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "San Gerardo": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1016,
+  "lon": -73.1199,
+  "nombre_osm": "San Gerardo, Comuna 8 - Suroccidente, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "San Luis": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09162,
+  "lon": -73.11866,
+  "nombre_osm": "San Luis, Comuna 10 - Provenza, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, "
+ },
+ "San Martin": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09801,
+  "lon": -73.11024,
+  "nombre_osm": "San Martín, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "San Miguel": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11028,
+  "lon": -73.12326,
+  "nombre_osm": "San Miguel, Comuna 6 - La Concordia, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolit"
+ },
+ "San Pedro Claver": {
+  "calidad": "comuna_coincide",
+  "lat": 7.10089,
+  "lon": -73.11035,
+  "nombre_osm": "San Pedro Claver, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Metr"
+ },
+ "San Rafael": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13992,
+  "lon": -73.13498,
+  "nombre_osm": "San Rafael, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Santa Maria": {
+  "calidad": "comuna_coincide",
+  "lat": 7.07953,
+  "lon": -73.1333,
+  "nombre_osm": "Colegio Santa María, Avenida Calle 105, El Porvenir, Comuna 11 - Sur, Perímetro Urbano Buc"
+ },
+ "Santander": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1154,
+  "lon": -73.14042,
+  "nombre_osm": "Santander, Comuna 4 - Occidental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana"
+ },
+ "Sauces": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13378,
+  "lon": -73.10812,
+  "nombre_osm": "Los Sauces, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitan"
+ },
+ "Sotomayor": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1173,
+  "lon": -73.11427,
+  "nombre_osm": "Sotomayor, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Metr"
+ },
+ "Tejar Norte": null,
+ "Terrazas": {
+  "calidad": "comuna_coincide",
+  "lat": 7.11063,
+  "lon": -73.1054,
+  "nombre_osm": "Terrazas, Comuna 12 - Cabecera del Llano, Perímetro Urbano Bucaramanga, Bucaramanga, Metro"
+ },
+ "Toledo Plata": null,
+ "Transicion I-V": null,
+ "Universidad": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13638,
+  "lon": -73.11908,
+  "nombre_osm": "Universidad, Comuna 3 - San Francisco, Perímetro Urbano Bucaramanga, Bucaramanga, Metropol"
+ },
+ "Vegas de Morrorico": {
+  "calidad": "comuna_coincide",
+  "lat": 7.13696,
+  "lon": -73.10743,
+  "nombre_osm": "Vegas del Morrorico, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Met"
+ },
+ "Venado de Oro": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1311,
+  "lon": -73.10676,
+  "nombre_osm": "Venado de Oro, Comuna 14 - Morrorico, Perímetro Urbano Bucaramanga, Bucaramanga, Metropoli"
+ },
+ "Vijagual": {
+  "calidad": "comuna_coincide",
+  "lat": 7.1874,
+  "lon": -73.13108,
+  "nombre_osm": "Autopista La Cemento - Vijagual, Villa Luz Norte, Bucaramanga, Metropolitana, Santander, R"
+ },
+ "Villa Alicia": {
+  "calidad": "comuna_coincide",
+  "lat": 7.08547,
+  "lon": -73.12152,
+  "nombre_osm": "Villa Alicia, Comuna 11 - Sur, Perímetro Urbano Bucaramanga, Bucaramanga, Metropolitana, S"
+ },
+ "Villa Diamante": {
+  "calidad": "comuna_coincide",
+  "lat": 7.09431,
+  "lon": -73.10926,
+  "nombre_osm": "Villa Diamante, Comuna 9 - La Pedregosa, Perímetro Urbano Bucaramanga, Bucaramanga, Metrop"
+ },
+ "Villa Helena": null,
+ "Villa Helena II": null,
+ "Villa Ines": null,
+ "Villa Maria I": null,
+ "Villa Mercedes": {
+  "calidad": "comuna_coincide",
+  "lat": 7.14476,
+  "lon": -73.13478,
+  "nombre_osm": "Villa Mercedes, Comuna 2 - Nororiental, Perímetro Urbano Bucaramanga, Bucaramanga, Metropo"
+ },
+ "Villa Rosa": null,
+ "Villa Sara": null,
+ "Villas de San Ignacio": {
+  "calidad": "comuna_coincide",
+  "lat": 7.15401,
+  "lon": -73.14379,
+  "nombre_osm": "Institución Educativa Villas de San Ignacio, Autopista Chimitá, Bavaria 2, Comuna 1 - Nort"
+ }
+}
