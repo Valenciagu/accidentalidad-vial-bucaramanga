@@ -46,6 +46,31 @@ class InicioPantalla extends StatelessWidget {
                     style: TextStyle(color: Colors.white, fontSize: 15, height: 1.4),
                   ),
                   const Spacer(),
+                  if (controlador.cantidad.aviso != null) ...[
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.15),
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(color: Colors.white54),
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Icon(Icons.warning_amber_rounded, color: Colors.white),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: Text(
+                              controlador.cantidad.aviso!,
+                              style: const TextStyle(color: Colors.white, fontSize: 13, height: 1.35),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+                  ],
                   if (controlador.error != null) ...[
                     Text(
                       controlador.error!,

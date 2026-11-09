@@ -68,3 +68,14 @@ Se actualiza cada vez que una tarea termina. Si retomas el proyecto, empieza por
 |---|-------|--------|
 | 6.1 | Mejorar coordenadas de los 46 barrios aproximados | ⬜ |
 | 6.2 | Refinar el intérprete con preguntas reales de los usuarios | ⬜ |
+
+## Fase 7: Escala con datos sintéticos
+
+| # | Tarea | Estado |
+|---|-------|--------|
+| 7.1 | Generador de hasta 1.100.000 accidentes sintéticos a partir de los reales | ✅ |
+| 7.2 | Variable `cantidadAccidentes` en `lib/configuracion.dart` con validación y aviso | ✅ |
+| 7.3 | Mostrar reales y sintéticos en Estado del sistema y Perfil | ✅ |
+| 7.4 | Mediciones con 1.100.000 registros en `CONTEXTO_TECNICO.md` | ✅ |
+| 7.5 | Probar la app en Chrome y Android con 1.000.000 (tiempo de carga y pantalla de complejidad) | ⬜ |
+| 7.6 | Actualizar capturas y el PDF si se presentan cifras con sintéticos | ⬜ |

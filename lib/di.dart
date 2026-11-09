@@ -1,3 +1,4 @@
+import 'configuracion.dart';
 import 'data/repositorios/repositorio_accidentes_asset.dart';
 import 'data/repositorios/repositorio_conectividad_http.dart';
 import 'domain/casos_uso/consultar_accidentes.dart';
@@ -13,6 +14,7 @@ ControladorApp crearControlador() {
 
   return ControladorApp(
     repositorioAccidentes: const RepositorioAccidentesAsset(),
+    cantidadSolicitada: cantidadAccidentes,
     repositorioConectividad: const RepositorioConectividadHttp(),
     consultar: consultar,
     ranking: const GenerarRanking(),

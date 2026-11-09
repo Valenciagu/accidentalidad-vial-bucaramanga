@@ -55,6 +55,13 @@ class _EstadoSistemaPantallaState extends State<EstadoSistemaPantalla> {
               children: [
                 _Fila('Estado', 'Disponibles sin conexión', color: Colores.exito),
                 _Fila('Registros cargados', formatoNumero(datos.n)),
+                _Fila('Reales (CSV)', formatoNumero(datos.reales)),
+                _Fila('Sintéticos', formatoNumero(datos.sinteticos)),
+                _Fila(
+                  'Cantidad configurada',
+                  formatoNumero(controlador.cantidad.pedida),
+                  color: controlador.cantidad.corregida ? Colores.peligro : Colores.texto,
+                ),
                 _Fila('Tiempo de carga', '${formatoNumero(controlador.tiempoCargaMs)} ms'),
                 _Fila('Última consulta', formatoMicrosegundos(controlador.tiempoConsultaUs)),
               ],

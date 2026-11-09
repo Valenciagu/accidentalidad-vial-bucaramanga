@@ -87,6 +87,17 @@ flutter test test/medicion_planificador_test.dart --reporter=expanded
 | 19.584 | 0,18 µs | 550 µs | 13.044 µs |
 | 39.168 | 0,16 µs | 899 µs | 23.593 µs |
 
+Con los 1.100.000 registros (reales + sintéticos):
+
+| n | Búsqueda binaria | Filtrado | Merge Sort |
+|---:|---:|---:|---:|
+| 137.500 | 0,13 µs | 3.542 µs | 102.296 µs |
+| 275.000 | 0,10 µs | 4.319 µs | 262.064 µs |
+| 550.000 | 0,22 µs | 9.319 µs | 482.894 µs |
+| 1.100.000 | 0,12 µs | 19.003 µs | 1.026.831 µs |
+
+La búsqueda binaria casi no cambia con n 28 veces mayor, el filtrado sigue creciendo de forma lineal y Merge Sort crece como n log n. El planificador tarda lo mismo con 39.168 o con 1.100.000 registros, porque trabaja sobre los conteos por celda (comuna, día, hora) y no sobre los registros: su tamaño es m, no n.
+
 Merge Sort se mide con n números aleatorios, igual que `example_04.py`. En la app ordena categorías, que son muchas menos. El filtrado se duplica cuando n se duplica, como se espera de O(n). Los tiempos tan pequeños tienen ruido del compilador, así que hay que leer la tendencia y no cada valor.
 
 ### Planificador según los operativos
@@ -151,6 +162,23 @@ python tool/generar_manual_pdf.py .
 
 `barrios_geo.json` se conserva en el proyecto para no volver a consultar Nominatim, que limita a una petición por segundo.
 
+### Datos sintéticos y cantidad de registros
+
+La cantidad que carga la app se define en [lib/configuracion.dart](../lib/configuracion.dart):
+
+```dart
+const int cantidadAccidentes = 1000000; // por defecto
+```
+
+Se comporta como una lista fija de 1.100.000 accidentes de la que se toman los primeros `cantidadAccidentes`:
+
+- Los primeros 39.168 son los reales. Si se piden menos, se toma una muestra aleatoria de los reales.
+- El resto son sintéticos generados en el arranque por [generador_sintetico.dart](../lib/data/generadores/generador_sintetico.dart). La semilla es fija, así que siempre salen los mismos y pedir 300.000 incluye los sintéticos de pedir 102.356.
+- Cada sintético copia los atributos de un accidente real al azar (hora, barrio, gravedad, vehículos, empresa, policía) y recibe otra fecha del mismo mes y día de la semana. Así conserva las distribuciones y las correlaciones reales.
+- Si el valor es menor o igual a 0, la pantalla de inicio muestra "No hay esa cantidad de elementos en la lista" y carga 1. Si es mayor que 1.100.000, muestra el mismo aviso y carga 1.100.000. La regla está en [cantidad_registros.dart](../lib/domain/entidades/cantidad_registros.dart).
+
+Generar 1.100.000 registros tarda unos 0,3 s en la VM de Dart: O(n + d), porque se ordenan por fecha con conteo sobre los d días del calendario. Los sintéticos no se guardan en un archivo: un JSON de ese tamaño pesaría decenas de MB. En Estado del sistema se ve cuántos registros son reales y cuántos sintéticos.
+
 ## Cómo ejecutar
 
 ```
@@ -173,6 +201,7 @@ flutter run
 | [algoritmos_test.dart](../test/algoritmos_test.dart) | Exacto contra fuerza bruta, garantías del voraz, reducción desde Conjunto Dominante |
 | [consultas_test.dart](../test/consultas_test.dart) | Cifras contra el CSV crudo, intérprete, respuestas, planificador |
 | [arquitectura_test.dart](../test/arquitectura_test.dart) | Regla de dependencias |
+| [sinteticos_test.dart](../test/sinteticos_test.dart) | Validación de la cantidad, generador reproducible, ordenado y con proporciones reales |
 | [medicion_planificador_test.dart](../test/medicion_planificador_test.dart) | Imprime las mediciones de este documento |
 
 ## Dependencias

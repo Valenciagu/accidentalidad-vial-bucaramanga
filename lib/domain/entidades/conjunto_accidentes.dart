@@ -74,6 +74,7 @@ class ConjuntoAccidentes {
     required this.catalogoComunas,
     required this.catalogoBarrios,
     required this.reporte,
+    this.sinteticos = 0,
   }) : anioMinimo = fechas.first ~/ 10000,
        anioMaximo = fechas.last ~/ 10000;
 
@@ -92,7 +93,11 @@ class ConjuntoAccidentes {
   final int anioMinimo;
   final int anioMaximo;
 
+  /// Registros generados a partir de los reales; el resto viene del CSV.
+  final int sinteticos;
+
   int get n => fechas.length;
+  int get reales => n - sinteticos;
   int get cantidadAnios => anioMaximo - anioMinimo + 1;
   int get ultimoMes => fechas.last ~/ 100 % 100;
 

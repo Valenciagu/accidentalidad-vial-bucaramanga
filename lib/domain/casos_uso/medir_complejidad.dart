@@ -65,7 +65,8 @@ class MedirComplejidad {
 
     final tamanos = <MedicionTamano>[];
     for (final divisor in const [8, 4, 2, 1]) {
-      tamanos.add(_medirTamano(datos, datos.n ~/ divisor));
+      // Con muy pocos registros la división daría 0 y no habría qué medir.
+      tamanos.add(_medirTamano(datos, math.max(1, datos.n ~/ divisor)));
     }
 
     final planes = <MedicionPlan>[];

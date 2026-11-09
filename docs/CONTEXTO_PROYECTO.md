@@ -41,6 +41,8 @@ Estas funciones no están en el Word. Si se conservan, deben agregarse a los req
 
 39.193 filas originales; 39.168 después de quitar duplicados exactos. Los accidentes van del 1 de enero de 2012 al 30 de septiembre de 2023.
 
+Las cifras de esta sección son de los 39.168 reales. Para probar la escala, la app completa hasta 1.100.000 registros con accidentes sintéticos y por defecto carga 1.000.000; la cantidad se cambia en `lib/configuracion.dart` (ver `CONTEXTO_TECNICO.md`). Con sintéticos, los totales de la app no son cifras reales de Bucaramanga: las proporciones sí se conservan.
+
 | Indicador | Valor |
 |---|---|
 | Accidentes con solo daños | 19.589 (50,0 %) |

@@ -42,7 +42,9 @@ class PerfilPantalla extends StatelessWidget {
                       style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
                     ),
                     Text(
-                      '${formatoNumero(datos.n)} accidentes · ${datos.anioMinimo} a '
+                      '${formatoNumero(datos.n)} accidentes'
+                      '${datos.sinteticos > 0 ? ' (${formatoNumero(datos.sinteticos)} sintéticos)' : ''}'
+                      ' · ${datos.anioMinimo} a '
                       '${nombresMeses[datos.ultimoMes - 1].toLowerCase()} de ${datos.anioMaximo}',
                       style: const TextStyle(fontSize: 12, color: Colores.textoSuave),
                     ),

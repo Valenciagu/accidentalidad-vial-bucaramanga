@@ -5,6 +5,7 @@ import '../../domain/casos_uso/generar_ranking.dart';
 import '../../domain/casos_uso/medir_complejidad.dart';
 import '../../domain/casos_uso/planificar_operativos.dart';
 import '../../domain/casos_uso/responder_pregunta.dart';
+import '../../domain/entidades/cantidad_registros.dart';
 import '../../domain/entidades/catalogos.dart';
 import '../../domain/entidades/conjunto_accidentes.dart';
 import '../../domain/entidades/estado_servicio.dart';
@@ -17,12 +18,14 @@ import '../../domain/repositorios/repositorio_conectividad.dart';
 class ControladorApp extends ChangeNotifier {
   ControladorApp({
     required RepositorioAccidentes repositorioAccidentes,
+    required int cantidadSolicitada,
     required RepositorioConectividad repositorioConectividad,
     required ConsultarAccidentes consultar,
     required GenerarRanking ranking,
     required PlanificarOperativos planificar,
     required MedirComplejidad medir,
   }) : _repositorioAccidentes = repositorioAccidentes,
+       _cantidadSolicitada = cantidadSolicitada,
        _repositorioConectividad = repositorioConectividad,
        _consultar = consultar,
        _ranking = ranking,
@@ -30,6 +33,7 @@ class ControladorApp extends ChangeNotifier {
        _medir = medir;
 
   final RepositorioAccidentes _repositorioAccidentes;
+  final int _cantidadSolicitada;
   final RepositorioConectividad _repositorioConectividad;
   final ConsultarAccidentes _consultar;
   final GenerarRanking _ranking;
@@ -46,6 +50,9 @@ class ControladorApp extends ChangeNotifier {
   List<ItemRanking> rankingBarrios = const [];
 
   bool cargando = true;
+
+  /// Cantidad configurada en `configuracion.dart`, ya validada.
+  late CantidadRegistros cantidad;
   String? error;
   int tiempoCargaMs = 0;
   int tiempoConsultaUs = 0;
@@ -62,8 +69,12 @@ class ControladorApp extends ChangeNotifier {
     error = null;
     notifyListeners();
     final reloj = Stopwatch()..start();
+    cantidad = CantidadRegistros.validar(
+      _cantidadSolicitada,
+      disponibles: _repositorioAccidentes.disponibles,
+    );
     try {
-      final datos = await _repositorioAccidentes.cargar();
+      final datos = await _repositorioAccidentes.cargar(cantidad.usada);
       _datos = datos;
       _responder = ResponderPregunta(datos, _consultar, _ranking);
       tiempoCargaMs = reloj.elapsedMilliseconds;

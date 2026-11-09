@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:ppi_analisis/core/formato.dart';
+import 'package:ppi_analisis/data/generadores/generador_sintetico.dart';
 import 'package:ppi_analisis/data/modelos/conjunto_accidentes_modelo.dart';
 import 'package:ppi_analisis/domain/casos_uso/consultar_accidentes.dart';
 import 'package:ppi_analisis/domain/casos_uso/medir_complejidad.dart';
@@ -56,4 +57,32 @@ void main() {
     final comunas = plan.operativos.map((o) => o.comuna).toSet();
     expect(comunas, hasLength(3));
   }, timeout: const Timeout(Duration(minutes: 3)));
+
+  test('mediciones con 1.100.000 registros (reales + sintéticos)', () {
+    final texto = File('assets/datos/accidentes.json').readAsStringSync();
+    final reales = ConjuntoAccidentesModelo.desdeJson(
+      jsonDecode(texto) as Map<String, dynamic>,
+    );
+    final reloj = Stopwatch()..start();
+    final datos = GeneradorSintetico.tomar(reales, GeneradorSintetico.totalDisponible);
+    // ignore: avoid_print
+    print('generacion=${reloj.elapsedMilliseconds}ms');
+    const consultar = ConsultarAccidentes();
+    const planificar = PlanificarOperativos();
+    final general = consultar(datos, Filtros.ninguno);
+
+    final reporte = const MedirComplejidad(consultar, planificar)(datos, general);
+    for (final t in reporte.tamanos) {
+      // ignore: avoid_print
+      print('n=${t.n} busqueda=${t.busquedaUs}us filtrado=${t.filtradoUs}us '
+          'ordenamiento=${t.ordenamientoUs}us');
+    }
+    for (final p in reporte.planes) {
+      // ignore: avoid_print
+      print('k=${p.k} espacio=${formatoGrande(p.espacio)} nodos=${p.nodos} '
+          'exacto=${p.exactoUs}us voraz=${p.vorazUs}us '
+          'optimo=${p.optimoDemostrado} calidad=${p.calidadVoraz}');
+    }
+    expect(datos.n, GeneradorSintetico.totalDisponible);
+  }, timeout: const Timeout(Duration(minutes: 5)));
 }
