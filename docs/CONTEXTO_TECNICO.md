@@ -194,6 +194,23 @@ flutter doctor --android-licenses
 flutter run
 ```
 
+## CI/CD
+
+[.github/workflows/ci_cd.yml](../.github/workflows/ci_cd.yml) corre en GitHub Actions:
+
+```
+push o pull request a main
+  └─ CI: flutter pub get → flutter analyze → flutter test
+       └─ si pasa y es push a main
+            └─ CD: flutter build web → publica build/web en la rama gh-pages
+```
+
+- **CI (integración continua):** cada cambio se verifica solo, en una máquina limpia. Un pull request con pruebas rotas queda en rojo.
+- **CD (despliegue continuo):** si la CI pasa, el sitio de GitHub Pages se actualiza sin pasos manuales. Si la CI falla, no se despliega.
+- `main` guarda el código fuente; `gh-pages` guarda solo la app compilada, porque GitHub Pages sirve archivos estáticos y no compila Dart.
+- La prueba de la cantidad configurada hace fallar la CI si se sube un `cantidadAccidentes` fuera de 1..1.100.000.
+- El historial de ejecuciones está en la pestaña **Actions** del repositorio.
+
 ## Pruebas
 
 | Archivo | Comprueba |

@@ -1,6 +1,6 @@
 # Contexto del proyecto
 
-Qué es el proyecto, qué se pactó en el informe, qué dicen los datos y qué se decidió. La parte de código y complejidad está en [CONTEXTO_TECNICO.md](CONTEXTO_TECNICO.md). El avance está en [TAREAS.md](TAREAS.md).
+Qué es el proyecto, qué se pactó en el informe, qué dicen los datos y qué se decidió. La parte de código y complejidad está en [CONTEXTO_TECNICO.md](CONTEXTO_TECNICO.md).
 
 ## Resumen
 

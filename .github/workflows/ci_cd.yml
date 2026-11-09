@@ -1,0 +1,77 @@
+# CI/CD de la app de accidentalidad vial.
+#
+# CI (integración continua): en cada push y pull request corre el análisis
+#   estático y las pruebas. Si algo falla, el cambio queda marcado en rojo en
+#   GitHub y no se despliega.
+# CD (despliegue continuo): solo si la CI pasa y el cambio llegó a main, compila
+#   la versión web y la publica en la rama gh-pages (GitHub Pages).
+
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Si llegan dos pushes seguidos, solo despliega el último.
+concurrency:
+  group: ci-cd-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    name: Análisis y pruebas
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.41.9
+          channel: stable
+          cache: true
+
+      - name: Instalar dependencias
+        run: flutter pub get
+
+      - name: Análisis estático
+        run: flutter analyze
+
+      - name: Pruebas
+        run: flutter test
+
+  cd:
+    name: Desplegar en GitHub Pages
+    needs: ci
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.41.9
+          channel: stable
+          cache: true
+
+      - name: Compilar la versión web
+        run: |
+          flutter pub get
+          flutter build web --release --base-href /${{ github.event.repository.name }}/
+
+      - name: Publicar en la rama gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/web
+          publish_branch: gh-pages
+          enable_jekyll: false
+          commit_message: "deploy: ${{ github.event.head_commit.message }}"

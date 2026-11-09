@@ -14,10 +14,10 @@ void main() {
   const total = GeneradorSintetico.totalDisponible;
 
   group('Validación de la cantidad configurada', () {
-    test('el valor por defecto es 1.000.000 y no genera aviso', () {
-      expect(cantidadAccidentes, 1000000);
+    test('la cantidad configurada está en el rango y no genera aviso', () {
+      // La CI falla si se publica la app con un valor que dispara el aviso.
       final c = CantidadRegistros.validar(cantidadAccidentes, disponibles: total);
-      expect(c.usada, 1000000);
+      expect(c.usada, cantidadAccidentes);
       expect(c.aviso, isNull);
     });
 

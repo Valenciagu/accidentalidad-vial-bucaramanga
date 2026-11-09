@@ -43,3 +43,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Herramientas de IA y organización interna: se quedan en cada computador,
+# no se suben a ninguna rama.
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+**/CLAUDE.md
+AGENTS.md
+.agents/
+agents/
+skills/
+.skills/
+.mcp.json
+.cursor/
+.cursorrules
+.github/copilot-instructions.md
+docs/TAREAS.md
